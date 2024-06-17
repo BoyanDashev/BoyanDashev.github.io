@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function displayResults(results) {
-    const container = document.getElementById('travel-recommendations');
+    const container = document.getElementById("travel-recommendation-3");
     container.innerHTML = '';
     
     if (results.length === 0) {

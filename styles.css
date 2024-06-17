@@ -3,6 +3,7 @@ nav{
 }
 body{
     
+    
     background-image: url(pexels-pixabay-40142.jpg);
     background-size: cover;
     background-position: center;
@@ -21,4 +22,29 @@ h2{
 }
 li{
     color:red;
+}
+#travel-recommendations {
+    display: grid;
+    /* This makes the container a flex container */
+    justify-content: flex-end;
+    /* Aligns items to the right horizontally */
+    align-items: flex-end;
+    /* Aligns items to the bottom vertically */
+    
+}
+#travel-recommendation-1{
+    border: 5px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: blue;
+        height: 30em;
+        margin-bottom: 3rem;
+}
+#travel-recommendation-2 {
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blue;
+    height: 30em;
+    margin-bottom: 3rem;
 }
